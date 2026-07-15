@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+    <Row Tag="LOC_TCB_MOD_NAME">
+      <Text>AshKetchup's Color-Coded Attribute Traits Menu</Text>
+    </Row>
+    <Row Tag="LOC_ASC_MOD_DESCRIPTION">
+      <Text>Colors the attribute tree cards and panels based on their attribute type: purple for Culture, deep blue for Diplomatic, gold for Economic, green for Expansionist, red for Militaristic, and light blue for Scientific.</Text>
+    </Row>
+  </EnglishText>
+</Database>

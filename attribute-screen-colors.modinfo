@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="attribute-screen-colors" version="1" xmlns="ModInfo">
+  <Properties>
+    <Name>LOC_TCB_MOD_NAME</Name>
+    <Description>LOC_ASC_MOD_DESCRIPTION</Description>
+    <Authors>Codex</Authors>
+    <Package>Mod</Package>
+    <ShowInBrowser>1</ShowInBrowser>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <Version>1.0.0</Version>
+  </Properties>
+  <Dependencies>
+    <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="always">
+      <AlwaysMet/>
+    </Criteria>
+  </ActionCriteria>
+  <ActionGroups>
+    <ActionGroup id="asc-shell" scope="shell" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateText>
+          <Item>text/en_us/ModInfoText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="asc-game" scope="game" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UIScripts>
+          <Item>ui/attribute-screen-colors.js</Item>
+        </UIScripts>
+      </Actions>
+    </ActionGroup>
+  </ActionGroups>
+  <LocalizedText>
+    <File>text/en_us/ModInfoText.xml</File>
+  </LocalizedText>
+</Mod>
